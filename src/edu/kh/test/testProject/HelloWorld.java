@@ -8,11 +8,14 @@ System.out.println("Hello world~!");//영문
 System.out.println("아침은 드셨나요?"); //한글
 System.out.println("123456"); //숫자
 
-//""(쌍따옴표) : 문자열을 나타냄
-// ==> 안에 작성된 텍스트(코드)는 단순 문자열로 인식
+//: 한줄주석
+/*범위주석*/
+
+// ""(쌍따옴표) : 문자열을 나타냄
+// ==> 쌍따옴표 안에 작성된 텍스트(코드)는 단순 문자열로 인식
 
 System.out.println("1 + 2"); // 1 + 2 
-System.out.println(1 + 2 );
+System.out.println(1 + 2 ); //3
 
 // "" 안에 작성되지 않은 코드는 숫자, 변수로 인식
 
@@ -25,8 +28,8 @@ System.out.println("14*19=" + 266);
 System.out.println("14*19=" + 14*19);
 
 // 자바는 사칙연산의 우선순위를 그대로 따른다.
-// ex) 우선 계산을 원하면 () 괄호 사용
-
+// ex) 우선 계산을 원하면 () 괄호 사용.
+System.out.println("안녕?날 보고있니?");
 
 }
 
